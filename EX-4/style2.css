@@ -1,0 +1,19 @@
+.content {
+      width: clamp(300px, 100%, 800px);
+      height: 320px;
+      background-color: #c6ea00;
+    }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.wrapper {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}

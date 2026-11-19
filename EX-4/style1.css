@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.big{
+    background-color: greenyellow;
+    font-size: 5rem; 
+}
+
+.small{
+    display: none;
+    background-color: red;
+    font-size: 2rem;
+}
+
+@media (max-width:600px){
+    .big{
+        display: none;
+    }
+    .small{
+        display: block;
+    }
+}
